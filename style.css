@@ -6,3 +6,7 @@ html, body {
 body { 
   padding-top: 70px;
 }
+
+nav.container {
+  border-bottom: 1px solid white;
+}
