@@ -9,4 +9,31 @@ footer {
   background-color: $body-bg;
 }
 
+.hp-home {
+  .lead {
+    font-size: $hp-lead-font-size;
+  }
+
+  section {
+    margin-top: 10vh;
+  }
+}
+
+.hp-icons-block {
+  margin-top: 20px;
+
+  a,i {
+    &:not(:last-child) {
+      margin-right: 3vw;
+    }
+    
+    &.vk:hover { color: $vk-color }
+    &.facebook:hover { color: $facebook-color }
+    &.instagram:hover { color: $instagram-color }
+    &.github:hover { color: $github-color }
+
+    color: inherit
+  }
+}
+
 @import "node_modules/bootstrap/scss/bootstrap";
