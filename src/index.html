@@ -4,11 +4,21 @@
 <head>
   @@include('./blocks/google-analytics.html')
   <title>Andrei Radzetski / Андрей Радецкий</title>
-  @@include('./blocks/meta.html') @@include('./blocks/css.html', {"min": ".min"})
+  @@include('./blocks/meta.html') 
+  @@include('./blocks/css.html', {"min": ".min"})
 </head>
 
 <body class="hp-home">
-  @@include('./blocks/nav.html')
+  <nav class="navbar navbar-expand navbar-light bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand font-weight-light" href="https://andrei-radzetski.github.io">Andrei Radzetski</a>
+      <div class="navbar-nav justify-content-end">
+        <a class="active nav-item nav-link font-weight-light" href="https://andrei-radzetski.github.io/index.html">Home</a>
+        <a class="nav-item nav-link font-weight-light" href="https://andrei-radzetski.github.io">Projects</a>
+      </div>
+    </div>
+    </div>
+  </nav>
 
   <main role="main">
     <div class="container-fluid">
@@ -18,10 +28,18 @@
           <br>Current location - Wrocław, Poland.
         </p>
         <p class="hp-icons-block">
-          <a class="vk" target="_blank" href="https://vk.com/andrei.radzetski"><i class="fa fa-vk fa-4x" aria-hidden="true"></i></a>
-          <a class="facebook" target="_blank" href="https://www.facebook.com/stels666"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a>
-          <a class="instagram" target="_blank" href="https://www.instagram.com/andrei.radzetski"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
-          <a class="github" target="_blank" href="https://github.com/andrei-radzetski"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          <a class="vk" target="_blank" href="https://vk.com/andrei.radzetski">
+            <i class="fa fa-vk fa-4x" aria-hidden="true"></i>
+          </a>
+          <a class="facebook" target="_blank" href="https://www.facebook.com/stels666">
+            <i class="fa fa-facebook fa-4x" aria-hidden="true"></i>
+          </a>
+          <a class="instagram" target="_blank" href="https://www.instagram.com/andrei.radzetski">
+            <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+          </a>
+          <a class="github" target="_blank" href="https://github.com/andrei-radzetski">
+            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+          </a>
         </p>
       </section>
     </div>
