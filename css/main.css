@@ -26,6 +26,8 @@ footer {
       color: #c13584; }
     .hp-icons-block a.github:hover, .hp-icons-block i.github:hover {
       color: #333; }
+    .hp-icons-block a.linkedin:hover, .hp-icons-block i.linkedin:hover {
+      color: #0077b5; }
     .hp-icons-block a.email:hover, .hp-icons-block i.email:hover {
       color: #00b27f; }
 
